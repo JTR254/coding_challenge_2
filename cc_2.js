@@ -19,3 +19,19 @@ let totalScore = scores.reduce((total, amount) => total + amount, 0); // Sum of 
 let averageScore = totalScore / scores.length; // Output: 400/5 = 80
 
 console.log ("Average:", averageScore); // Output = 80
+
+//Task 3
+
+let employee = {
+    name: "Luke Smith",
+    age: 30,
+    department: "Packaging",
+    isActive: true
+}
+
+employee.department = "Processing";
+console.log ("Department:", employee.department) // Output: Luke Smith
+
+employee.position = "Manager"
+console.log ("Employee Position:", employee.position) // Output: Manager
+console.log (employee)
