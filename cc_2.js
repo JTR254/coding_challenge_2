@@ -34,7 +34,7 @@ console.log ("Department:", employee.department); // Output: Luke Smith
 
 employee.position = "Manager";
 console.log ("Employee Position:", employee.position); // Output: Manager
-console.log (employee)
+console.log (employee) // Employee's Name, Age, Department, and if they are Active
 
 // Task 4
 
@@ -44,6 +44,20 @@ let customers = [
 {name: "Mike Freeman", email: "mikefreeman@gmail.com", purchaseAmount: 45}
 ];
 
-customers.push({name: "Chad Newsom", email: "chadnewsom@gmail.com", purchaseAmount: 75});
+customers.push({name: "Chad Newsom", email: "chadnewsom@gmail.com", purchaseAmount: 75}); // This adds an object (Customer)
 
-console.log(customers)
+console.log(customers) // Objects Listed. Each Object contains Customer Name, Email, and the Purchase Amount
+
+// Task 5
+
+let order = {
+    orderID: 18946, 
+    customerName: "Brett Lyons",
+    amount: 25,
+
+    calculateTax: function(){const taxRate = .10;
+        return this.amount * taxRate}
+};
+
+console.log (order) // Ouput: Order ID: 18946; Customer Name: Brett Lyons; Amount: 25
+console.log ("Tax Amount:", order.calculateTax()) // The Tax Amount = $2.5
