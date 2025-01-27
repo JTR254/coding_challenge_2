@@ -20,7 +20,7 @@ let averageScore = totalScore / scores.length; // Output: 400/5 = 80
 
 console.log ("Average:", averageScore); // Output = 80
 
-//Task 3
+// Task 3
 
 let employee = {
     name: "Luke Smith",
@@ -30,8 +30,20 @@ let employee = {
 }
 
 employee.department = "Processing";
-console.log ("Department:", employee.department) // Output: Luke Smith
+console.log ("Department:", employee.department); // Output: Luke Smith
 
-employee.position = "Manager"
-console.log ("Employee Position:", employee.position) // Output: Manager
+employee.position = "Manager";
+console.log ("Employee Position:", employee.position); // Output: Manager
 console.log (employee)
+
+// Task 4
+
+let customers = [
+    {name: "Joseph Willock", email: "joewillock@gmail.com", purchaseAmount: 60},
+{name: "Emily Heslin", email: "emilyheslin@gmail.com", purchaseAmount: 35},
+{name: "Mike Freeman", email: "mikefreeman@gmail.com", purchaseAmount: 45}
+];
+
+customers.push({name: "Chad Newsom", email: "chadnewsom@gmail.com", purchaseAmount: 75});
+
+console.log(customers)
