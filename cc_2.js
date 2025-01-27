@@ -27,7 +27,7 @@ let employee = {
     age: 30,
     department: "Packaging",
     isActive: true
-}
+};
 
 employee.department = "Processing";
 console.log ("Department:", employee.department); // Output: Luke Smith
@@ -59,5 +59,5 @@ let order = {
         return this.amount * taxRate}
 };
 
-console.log (order) // Ouput: Order ID: 18946; Customer Name: Brett Lyons; Amount: 25
+console.log (order); // Ouput: Order ID: 18946; Customer Name: Brett Lyons; Amount: 25
 console.log ("Tax Amount:", order.calculateTax()) // The Tax Amount = $2.5
