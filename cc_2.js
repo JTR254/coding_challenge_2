@@ -18,4 +18,5 @@ console.log(scores); //Output: [88, 82, 95, 65, 70]
 let totalScore = totalScore.reduce((total, amount) => total + amount, 0); // Sum of the scores = 400
 let averageScore = totalScore / scores.length // Output: 400/5 = 80
 
+console.log (totalScore)
 console.log ("Average", averageScore)
